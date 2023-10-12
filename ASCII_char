@@ -1,0 +1,8 @@
+starting_index = int(input())
+ending_index = int(input())
+char_sum = ''
+
+for ascii_index in range(starting_index, ending_index + 1):
+    current_char = chr(ascii_index)
+    char_sum += (current_char + ' ')
+print(char_sum)
